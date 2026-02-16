@@ -16,7 +16,7 @@ public class HelloWorld {
             t[i][0] = 1;
         }
         for(int j=0;j<=target;j++){
-            t[0][j] = 1;
+            t[0][j] = 0;
         }
         for(int i=1;i<=N;i++) {
             for (int j = 1; j <= target; j++) {
